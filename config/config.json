@@ -1,0 +1,16 @@
+{
+  "environments": {
+    "DEV": {
+      "url" : "https://automationpractice.techwithjatin.com/",
+      "max_number_of_attempts": 3
+    },
+    "QA": {
+      "url" : "https://automationpractice.techwithjatin.com/",
+      "max_number_of_attempts": 3
+    },
+    "UAT": {
+      "url" : "https://automationpractice.techwithjatin.com/",
+      "max_number_of_attempts": 3
+    }
+  }
+}

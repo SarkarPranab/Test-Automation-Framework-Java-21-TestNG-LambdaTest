@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f04d36e-0845-41bc-9201-2a92b24683c2" name="Changes" comment="Adding rest of the testcases with java docs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3KYas90cHPjxTMyvbg4pXCX4Ehl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sarka/Downloads/linkedin-badges-1.0.1.zip&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;debugger.stepping&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.pranabsarkar.com.ui.pages" />
+      <recent name="org.pranabsarkar.com.constants" />
+      <recent name="org.pranabsarkar.com.ui.tests" />
+      <recent name="org.pranabsarkar.com.ui.pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.pranabsarkar.com.ui.tests" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean test-compile" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.AddNewAddressTest.addNewAddress">
+    <configuration name="TestNG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.testng.TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddNewAddressTest.addNewAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-assignment-java-testng-for-recruiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pranabsarkar.com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pranabsarkar.com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.pranabsarkar.com.ui.tests.AddNewAddressTest" />
+      <option name="METHOD_NAME" value="addNewAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sarka/projects/automation-assignment-java-testng-for-recruiter/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-assignment-java-testng-for-recruiter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCheckoutTest.checkoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-assignment-java-testng-for-recruiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pranabsarkar.com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pranabsarkar.com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.pranabsarkar.com.ui.tests.ProductCheckoutTest" />
+      <option name="METHOD_NAME" value="checkoutTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchProductTests.verifyProductSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-assignment-java-testng-for-recruiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pranabsarkar.com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pranabsarkar.com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.pranabsarkar.com.ui.tests.SearchProductTests" />
+      <option name="METHOD_NAME" value="verifyProductSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddNewAddressTest.addNewAddress" />
+        <item itemvalue="Application.TestNG" />
+        <item itemvalue="TestNG.SearchProductTests.verifyProductSearchTest" />
+        <item itemvalue="TestNG.C:/Users/sarka/projects/automation-assignment-java-testng-for-recruiter/testng.xml" />
+        <item itemvalue="TestNG.ProductCheckoutTest.checkoutTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f04d36e-0845-41bc-9201-2a92b24683c2" name="Changes" comment="" />
+      <created>1791694297822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791694297822</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Base commit">
+      <option name="closed" value="true" />
+      <created>1791695904494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791695904494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="loginData.json Path fix to support Linux">
+      <option name="closed" value="true" />
+      <created>1792068831744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792068831744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removing clean coding comment from LoginTest test class">
+      <option name="closed" value="true" />
+      <created>1792069611445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792069611445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding rest of the testcases with java docs">
+      <option name="closed" value="true" />
+      <created>1792242560745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792242560745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Base commit" />
+    <MESSAGE value="loginData.json Path fix to support Linux" />
+    <MESSAGE value="Removing clean coding comment from LoginTest test class" />
+    <MESSAGE value="Adding rest of the testcases with java docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding rest of the testcases with java docs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/HomePage.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/SearchResultPage.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/ProductDetailsPage.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/ConfirmAddressPage.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/ShipmentPage.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/pranabsarkar/com/ui/pages/OrderCheckOutPaymentPage.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

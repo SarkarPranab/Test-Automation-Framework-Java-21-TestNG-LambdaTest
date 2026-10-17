@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Author: Pranab Sarkar
+  LinkedIn: https://www.linkedin.com/in/pranabsarkar/
+  Portfolio: https://pranabsarkar.vercel.app/
+  Since: 2026-10-17
+-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Practice Test Suite" parallel="methods" thread-count="4" verbose="1">
+    <test name="UI Automation Test">
+        <parameter name="browser" value="${browser}"/>
+        <parameter name="isLambdaTest" value="${isLambdaTest}"/>
+        <parameter name="isHeadless" value="${isHeadless}"/>
+        <classes>
+            <class name="org.pranabsarkar.com.ui.tests.LoginTest"/>
+            <class name="org.pranabsarkar.com.ui.tests.AddNewAddressTest"/>
+            <class name="org.pranabsarkar.com.ui.tests.InvalidCredsLoginTests"/>
+            <class name="org.pranabsarkar.com.ui.tests.ProductCheckoutTest"/>
+            <class name="org.pranabsarkar.com.ui.tests.SearchProductTests"/>
+        </classes>
+    </test>
+</suite>
