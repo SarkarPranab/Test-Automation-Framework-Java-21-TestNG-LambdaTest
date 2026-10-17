@@ -1,5 +1,26 @@
 # Test Automation Framework: Java 21 | Selenium | TestNG | LambdaTest
 
+<div align="center">
+
+### Pranab Sarkar
+**SDET / Test Automation Engineer**
+
+<a href="https://www.linkedin.com/in/pranabsarkar/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/SarkarPranab" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://pranabsarkar.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+</a>
+
+</div>
+
+---
+
 A UI test automation framework built on **Java 21**, **Selenium 4** and **TestNG**, using the Page Object Model. Tests run on a local browser or on the **LambdaTest** cloud grid, in parallel, with an **ExtentReports** HTML report that is published to **GitHub Pages** automatically by **GitHub Actions**.
 
 **Live report (latest run):** https://sarkarpranab.github.io/Test-Automation-Framework-Java-21-TestNG-LambdaTest/report.html
@@ -25,6 +46,30 @@ A UI test automation framework built on **Java 21**, **Selenium 4** and **TestNG
 - **Environment config** per environment (`dev`, `qa`, `uat`) through properties files
 - **Logging** with Log4j2
 - **CI/CD** with GitHub Actions: runs on every push and pull request to `master`, and on a daily schedule
+
+---
+
+## Execution flow
+
+```mermaid
+flowchart TD
+    A["Push / Pull request / Daily schedule"] --> B["GitHub Actions<br/>maven.yml"]
+    B --> C["mvn test<br/>(Java 21 + Maven)"]
+    C --> D["testng.xml<br/>parallel methods, 4 threads"]
+    D --> E["TestBase setup<br/>(reads isLambdaTest, isHeadless)"]
+    E -->|isLambdaTest=false| F["Local Chrome<br/>(headless in CI)"]
+    E -->|isLambdaTest=true| G["LambdaTest cloud grid<br/>(RemoteWebDriver)"]
+    F --> H["Page Objects<br/>execute test steps"]
+    G --> H
+    H --> I{"Test result"}
+    I -->|Pass| J["Log PASS<br/>in report"]
+    I -->|Fail| K["Capture screenshot<br/>and log error"]
+    J --> L["ExtentReports<br/>report.html"]
+    K --> L
+    L --> M["Upload artifacts<br/>logs, screenshots, report"]
+    L --> N["Deploy to GitHub Pages"]
+    N --> O["Live report URL"]
+```
 
 ---
 
@@ -193,26 +238,3 @@ LambdaTest execution is switched on by passing `-DisLambdaTest=true` (see above)
 2. Create a test class under `ui/tests/` that extends `TestBase`.
 3. Register the class in `testng.xml`.
 4. Run the suite. The listener adds the test to the report and captures a screenshot if it fails.
-
----
-
-## Author
-
-<div align="center">
-
-### Pranab Sarkar
-**SDET / Test Automation Engineer**
-
-<a href="https://www.linkedin.com/in/pranabsarkar/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://github.com/SarkarPranab" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-&nbsp;
-<a href="https://pranabsarkar.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-</a>
-
-</div>
